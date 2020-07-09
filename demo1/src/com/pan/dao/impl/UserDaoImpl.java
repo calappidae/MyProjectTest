@@ -16,6 +16,11 @@ public class UserDaoImpl implements UserDao {
     }
 
     @Override
+    public boolean UserDelete(User u) {
+       return false;
+    }
+
+    @Override
     public List UserList() {
         return null;
     }
