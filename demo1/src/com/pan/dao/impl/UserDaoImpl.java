@@ -24,4 +24,8 @@ public class UserDaoImpl implements UserDao {
     public List UserList() {
         return null;
     }
+
+    public void run(){
+	System.out.println("hello world");
+    }
 }
